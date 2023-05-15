@@ -6,7 +6,7 @@ An AI assistant in your CLI. Ask it to do something in your terminal, and it wil
 
 ## Usage
 
-```
+```bash
 ------------------- START bashgpt -------------------
 Use 'quit' or 'q' to exit the script.
 QUERY  : what is the time
@@ -25,6 +25,10 @@ EXPLAIN:  The video has been created successfully.
 QUERY  : q
 ------------------- FINISH bashgpt -------------------
 ```
+
+QUERY  : q
+------------------- FINISH bashgpt -------------------
+
 
 ## Installation
 
