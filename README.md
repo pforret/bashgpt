@@ -33,7 +33,7 @@ QUERY  : q
 with [basher](https://github.com/basherpm/basher)
 
 ```bash
-basher install pforret/gitploy
+basher install pforret/bashgpt
 bashgpt install
 ```
 
