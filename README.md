@@ -1,9 +1,38 @@
-# chatgpt-linux-assistant
-An ai assistant in your CLI. But it knows what's on your system and can help you get things done.
+# bashGPT
 
-Make sure to replace the API key with your openAI API key.
+![bash GPT](assets/bashgpt.jpg)
 
-![Screenshot_20230308_131922](https://user-images.githubusercontent.com/75229796/223673580-ca454b2c-3a91-455e-8c01-1b4401f11f83.png)
+An AI assistant in your CLI. Ask it to do something in your terminal, and it will select the best CLI command to do it, and execute it.
 
-My favorite usage. No more ffmpeg Googling:
-![Screenshot_20230308_133541](https://user-images.githubusercontent.com/75229796/223676869-af065932-8321-497d-b9c6-245d668766d3.png)
+## Usage
+
+```
+------------------- START bashgpt -------------------
+Use 'quit' or 'q' to exit the script.
+QUERY  : what is the time
+COMMAND: «date +'%r'» ...
+EXPLAIN:  The time is 10:21:02 PM.
+ 
+QUERY  : q
+------------------- FINISH bashgpt -------------------
+```
+
+## Installation
+
+with [basher](https://github.com/basherpm/basher)
+
+```bash
+basher install pforret/gitploy
+bashgpt install
+```
+
+or with `git`
+
+```bash
+git clone https://github.com/pforret/bashgpt.git
+cd bashgpt
+./bashgpt.sh install
+✅  python-dotenv is installed
+✅  revChatGPT is installed
+# get an OpenAI API key from https://platform.openai.com/account/api-keys
+```
