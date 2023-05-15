@@ -26,10 +26,6 @@ QUERY  : q
 ------------------- FINISH bashgpt -------------------
 ```
 
-QUERY  : q
-------------------- FINISH bashgpt -------------------
-
-
 ## Installation
 
 with [basher](https://github.com/basherpm/basher)
