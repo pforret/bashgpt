@@ -14,7 +14,7 @@ if not models:
     exit(0)
 
 # print the first model's id
-print(models.data[0].id)
+print("First model from OpenAI: " + models.data[0].id)
 
 # create a chat completion
 chat_completion = openai.ChatCompletion.create(
@@ -26,4 +26,4 @@ if not chat_completion.choices:
     exit(0)
 
 # print the chat completion
-print(chat_completion.choices[0].message.content)
+print("Answer from OpenAI: " + chat_completion.choices[0].message.content)

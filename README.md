@@ -6,6 +6,23 @@ An AI assistant in your CLI. Ask it to do something in your terminal, and it wil
 
 ## Usage
 
+```
+Program : bashgpt  by peter@forret.com
+Version : v0.1.2 (May 15 21:57:54 2023)
+Purpose : An ai assistant in your CLI
+Usage   : bashgpt [-h] [-q] [-v] [-f] [-l <log_dir>] [-t <tmp_dir>] <action>
+Flags, options and parameters:
+-h|--help        : [flag] show usage [default: off]
+-q|--quiet       : [flag] no output [default: off]
+-v|--verbose     : [flag] also show debug messages [default: off]
+-f|--force       : [flag] do not ask for confirmation (always yes) [default: off]
+-l|--log_dir <?> : [option] folder for log files   [default: /Users/pforret/log/bashgpt]
+    -t|--tmp_dir <?> : [option] folder for temp files  [default: /tmp/bashgpt]
+<action>         : [choice] action to perform  [options: run,install,test,check,env,update]
+```
+
+## Examples
+
 ```bash
 ------------------- START bashgpt -------------------
 Use 'quit' or 'q' to exit the script.
@@ -26,6 +43,10 @@ EXPLAIN:  The video has been created successfully.
  
 QUERY  : q
 ------------------- FINISH bashgpt -------------------
+
+bashgpt test
+First model from OpenAI: whisper-1
+Answer from OpenAI: The capital of Belgium is Brussels.
 ```
 
 ## Installation
