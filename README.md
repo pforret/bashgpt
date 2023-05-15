@@ -15,6 +15,15 @@ EXPLAIN:  The time is 10:21:02 PM.
  
 QUERY  : q
 ------------------- FINISH bashgpt -------------------
+
+------------------- START bashgpt -------------------
+Use 'quit' or 'q' to exit the script.
+QUERY  : create a video that fades from white to black in 5 seconds
+COMMAND: «ffmpeg -f lavfi -i color=white:s=1280x720:d=5 -f lavfi -i color=black:s=1280x720:d=5 -filter_complex "[0:v]fade=t=out:st=4:d=1:alpha=1[v0];[1:v]fade=t=in:st=0:d=1:alpha=1[v1];[v0][v1]concat=n=2:v=1:a=0" output.mp4» ...
+EXPLAIN:  The video has been created successfully.
+ 
+QUERY  : q
+------------------- FINISH bashgpt -------------------
 ```
 
 ## Installation
