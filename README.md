@@ -17,7 +17,7 @@ Flags, options and parameters:
 -v|--verbose     : [flag] also show debug messages [default: off]
 -f|--force       : [flag] do not ask for confirmation (always yes) [default: off]
 -l|--log_dir <?> : [option] folder for log files   [default: /Users/pforret/log/bashgpt]
-    -t|--tmp_dir <?> : [option] folder for temp files  [default: /tmp/bashgpt]
+-t|--tmp_dir <?> : [option] folder for temp files  [default: /tmp/bashgpt]
 <action>         : [choice] action to perform  [options: run,install,test,check,env,update]
 ```
 
