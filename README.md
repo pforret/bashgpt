@@ -35,6 +35,9 @@ with [basher](https://github.com/basherpm/basher)
 ```bash
 basher install pforret/bashgpt
 bashgpt install
+✅  python-dotenv is installed
+✅  revChatGPT is installed
+# get an OpenAI API key from https://platform.openai.com/account/api-keys
 ```
 
 or with `git`
